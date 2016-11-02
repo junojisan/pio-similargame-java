@@ -15,12 +15,12 @@ public class PIOCmdLineSampleApp {
 	public static void main(String[] args) {
 		PIODataImportService service = new PIODataImportService();
 
-		service.addCustomer();
+		service.addCustomers();
 		System.out.println("--- User import done ---");
-		
-		service.addGame();
+
+		service.addGames();
 		System.out.println("--- Item import done ---");
-		
+
 		service.addFavorites();
 		System.out.println("--- UserActionItem import done ---");
 	}

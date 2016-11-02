@@ -27,7 +27,7 @@ public class PIODataImportService {
 	 * @param
 	 * @return
 	 */
-	public void addCustomer(){
+	public void addCustomers(){
 		EventClient client = new EventClient(ACCESS_KEY, APP_URL);
 		List<FutureAPIResponse> futureAPIResponses = new ArrayList<>();
 
@@ -50,7 +50,7 @@ public class PIODataImportService {
 	 * @param
 	 * @return
 	 */
-	public void addGame(){
+	public void addGames(){
 		EventClient client = new EventClient(ACCESS_KEY, APP_URL);
 		List<FutureAPIResponse> futureAPIResponses = new ArrayList<>();
 
